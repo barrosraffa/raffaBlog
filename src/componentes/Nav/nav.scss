@@ -1,5 +1,22 @@
-.nav_bar {
+.navbar {
     width: 100%;
-    height: 40px;
-    background-color: #0099;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+    li {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+
+    a {
+        margin-right: 40px;
+    }
+
+    .nav-teste {
+        display: flex;
+        justify-content: center;
+    }
 }
+
