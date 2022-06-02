@@ -11,12 +11,26 @@
     }
 
     a {
-        margin-right: 40px;
+        margin: 40px;
     }
 
     .nav-teste {
         display: flex;
         justify-content: center;
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px 0 15px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    img {
+        align-items: center;
     }
 }
 

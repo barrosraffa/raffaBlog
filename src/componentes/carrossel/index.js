@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './carrossel.scss'
-import Gustavo from '../../assets/Gustavito.jpg';
+import daiana from '../../assets/daiana.jpg';
 import Gu from '../../assets/Gustavo-0368.jpg'
 
 
@@ -20,9 +20,7 @@ class Carrossel extends Component {
                     <div class="carousel-item">
                         <img src={Gu} id="imagem"/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={Gustavo} id="imagem"/>
-                    </div>
+                   
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import "./nav.scss"
+import "./nav.scss";
+import logo from '../../assets/logo.png'
+import Contato from "../Contato/contato";
 
 class Nav extends Component {
     render(){
@@ -13,11 +15,14 @@ class Nav extends Component {
                     <div class="nav-teste collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#contato">Contato</a>
+                                <a class="nav-link active" aria-current="page" href={Contato}>Contato</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#sobre">Sobre</a>
                             </li>
+                            <div class="logo">
+                                <img src={logo} id="imagem"/>
+                            </div>
                             <li class="nav-item">
                                 <a class="nav-link" href="#Faq">Faq</a>
                             </li>
